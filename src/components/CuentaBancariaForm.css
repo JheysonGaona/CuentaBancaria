@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.main-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1500px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-wrapper {
+  flex: 1;
+  max-width: 400px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h2 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form-buttons button {
+  padding: 6px 12px;
+  font-size: 13px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-nueva {
+  align-self: flex-start;
+  margin-bottom: 15px;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-nueva:hover {
+  background-color: #0056b3;
+}
+
+.btn-guardar {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-guardar:hover {
+  background-color: #0056b3;
+}
+
+.btn-cancelar {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-cancelar:hover {
+  background-color: #5a6268;
+}
+
+.btn-editar {
+  background-color: #ff9800;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.btn-editar:hover {
+  background-color: #fb8c00;
+}
+
+.btn-eliminar {
+  background-color: #e53935;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.btn-eliminar:hover {
+  background-color: #c62828;
+}
+
+.table-container {
+  flex: 2;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  table-layout: auto;
+}
+
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
