@@ -50,7 +50,7 @@ export default function CuentaBancariaLista() {
   return (
     <div className="main-container">
       <h2 style={{ textAlign: "center", marginBottom: "20px" }}>Cuentas Bancarias</h2>
-    <div class="wrapper">
+    <div className="wrapper">
       <div className="flex-container">
         <div className="form-wrapper">
           <CuentaBancariaForm
